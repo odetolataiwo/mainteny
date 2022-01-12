@@ -3,6 +3,7 @@
 
 let token
 
+// get token (sign in)
 it("Get Token", ()=>{
     cy.request({
         url: '/api/sessions/login',
